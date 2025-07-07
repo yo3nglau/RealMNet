@@ -2,7 +2,7 @@ import os
 
 # dataset settings
 dataset_type = 'MYOPIA'
-data_root = '/root/autodl-tmp/datasets/MYOPIA/'
+data_root = 'datasets/PSMM/'
 resampling = 'MYOPIA_MLRUS-20'
 image_set_dir_train = os.path.join(data_root, f'ImageSets/Main/{resampling}')
 image_set_dir_val_test = os.path.join(data_root, f'ImageSets/Main')
