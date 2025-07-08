@@ -97,3 +97,6 @@ If you find this repository useful, please consider citing this paper:
 TBD
 ```
 
+## Acknowledgement
+
+This work is built on [OpenMMLab](https://github.com/open-mmlab).
