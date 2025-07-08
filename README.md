@@ -1,5 +1,7 @@
 # Diagnosing pathologic myopia by identifying morphologic patterns using ultra widefield images with deep learning
 
+Pathologic myopia is a leading cause of visual impairment and blindness. While deep learning-based approaches aid in recognizing pathologic myopia using color fundus photography, they often rely on implicit patterns that lack clinical interpretability. This study aims to diagnose pathologic myopia by identifying clinically significant morphologic patterns, specifically posterior staphyloma and myopic maculopathy, by leveraging ultra-widefield (UWF) images that provide a broad retinal field of view. We curate a large-scale, multi-source UWF myopia dataset called PSMM and introduce RealMNet, an end-to-end lightweight framework designed to identify these challenging patterns. Benefiting from the fast pretraining distillation backbone, RealMNet comprises only 21 million parameters, which facilitates deployment for medical devices. Extensive experiments conducted across three different protocols demonstrate the robustness and generalizability of RealMNet. RealMNet achieves an F1 Score of 0.7970 (95% CI 0.7612–0.8328), mAP of 0.8497 (95% CI 0.8058–0.8937), and AUROC of 0.9745 (95% CI 0.9690–0.9801), showcasing promise in clinical applications.
+
 ![overview](assets/overview.png)
 
 ## News
@@ -61,6 +63,10 @@ python -c 'import mmengine;print(mmengine.__version__)'
 # verify the installation of mmcv
 python .dev_scripts/check_installation.py
 ```
+
+## Dataset
+
+The PSMM dataset is made public both on this repository and [Hugging Face](https://huggingface.co/datasets/yo3nglau/PSMM). The preprocessed UWF images with a resolution of 384 are released.
 
 ## Training
 
