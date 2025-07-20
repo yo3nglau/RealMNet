@@ -94,7 +94,16 @@ $run_dir/$run_time/epoch_$epoch.pth \
 If you find this repository useful, please consider citing this paper:
 
 ```
-TBD
+@article{liu2025diagnosing,
+  title={Diagnosing pathologic myopia by identifying morphologic patterns using ultra widefield images with deep learning},
+  author={Liu, Yang and Zhao, Keming and Luo, Lihui and Zhang, Ziheng and Qian, Zhenghang and Jiang, Cenk and Du, Zhicheng and Deng, Simin and Yang, Chengming and Wu, Duanpo and others},
+  journal={npj Digital Medicine},
+  volume={8},
+  number={1},
+  pages={435},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
 ```
 
 ## Acknowledgement
